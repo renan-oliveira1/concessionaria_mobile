@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/drawable/shape_button.xml" value="0.1095" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/drawable/shape_item.xml" value="0.18" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/drawable/side_nav_bar.xml" value="0.2055" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/activity_form_seller.xml" value="0.3625" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/activity_form_vehicle.xml" value="0.33" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/activity_info_seller.xml" value="0.33" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/activity_sell_vehicle.xml" value="0.33" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/content_main.xml" value="0.26403985507246375" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/fragment_gallery.xml" value="0.2884963768115942" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/fragment_home.xml" value="0.2884963768115942" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/fragment_seller.xml" value="0.33" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/fragment_slideshow.xml" value="0.2125" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/fragment_vehicle.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/fragment_vehicles.xml" value="0.25" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/row_selled_vehicles.xml" value="0.33" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/row_seller.xml" value="0.25" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/row_vehicle.xml" value="0.33" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/layout/row_vehicles.xml" value="0.3625" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/menu/activity_main_drawer.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Renan/StudioProjects/concessionaria_mobile/app/src/main/res/menu/main.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

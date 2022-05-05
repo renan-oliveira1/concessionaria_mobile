@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.concessionaria_mobile">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Concessionaria_mobile">
+        <activity
+            android:name=".view.InfoSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SellVehicleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormSellerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Concessionaria_mobile.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.FormVehicleActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

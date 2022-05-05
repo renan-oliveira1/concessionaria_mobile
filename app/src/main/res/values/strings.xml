@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Woody Cars</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Woody Cars</string>
+    <string name="nav_header_subtitle">Administre os carros e vendas</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Veiculos</string>
+    <string name="menu_seller">Vendedores</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="button_foreign_vehicle">Carro Importado</string>
+    <string name="button_save">Salvar</string>
+    <string name="button_national_vehicle">Carro nacional</string>
+</resources>
