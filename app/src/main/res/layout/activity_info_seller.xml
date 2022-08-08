@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blue_clean"
     tools:context=".view.InfoSellerActivity">
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/name_seller"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,12 +15,13 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
+        android:textStyle="bold"
         android:text="Seller Name"
         android:textSize="18sp"
         android:textColor="@color/black"
         />
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/view_age"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,7 +34,7 @@
         android:textColor="@color/black"
         />
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/age_seller"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,7 +47,7 @@
         android:textColor="@color/black"
         />
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/separator"
         android:layout_width="match_parent"
         android:layout_height="2dp"
@@ -54,7 +56,7 @@
         app:layout_constraintTop_toBottomOf="@id/age_seller"
         android:background="@color/black"/>
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/text_selled_vehicles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,7 +64,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
-        android:text="Veículos vendidos:"/>
+        android:text="Veículos vendidos:"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/button_back_screen"
