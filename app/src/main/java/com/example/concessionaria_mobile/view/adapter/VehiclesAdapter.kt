@@ -3,7 +3,7 @@ package com.example.concessionaria_mobile.view.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.concessionaria_mobile.R
+import com.example.concessionaria_mobile.databinding.RowVehicleBinding
 import com.example.concessionaria_mobile.service.model.vehicle.Vehicle
 import com.example.concessionaria_mobile.view.listener.VehicleListener
 import com.example.concessionaria_mobile.view.viewholder.VehiclesViewHolder
@@ -15,7 +15,8 @@ class VehiclesAdapter: RecyclerView.Adapter<VehiclesViewHolder>() {
     private var mVehicleList: List<Vehicle> = arrayListOf()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VehiclesViewHolder {
-        val item = LayoutInflater.from(parent.context).inflate(R.layout.row_vehicle, parent, false)
+        val inflater = LayoutInflater.from(parent.context)
+        val item = RowVehicleBinding.inflate(inflater, parent, false)
 
         return VehiclesViewHolder(item, mListener)
     }
